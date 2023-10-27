@@ -16,7 +16,7 @@ Task 1:
      var lastName   = "Wick" ;
      var maritalStatus  =  "Married" ;
      var country    = "USA" ;
-     var age    = 40 ;
+     var age        = 40 ;
 
 4 => var userInfo = ["jhon", "wick", "Married", "USA", 40];
 
