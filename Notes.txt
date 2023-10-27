@@ -1,3 +1,7 @@
+Q   :   https://medium.com/@reach2arunprakash/www-guvi-io-zen-d395deec1373
+
+Ans :
+
 Task 1:
 
 1 => var a;
@@ -8,7 +12,32 @@ Task 1:
 2=> var myvar = 1;
     console.log(myvar);
 
-3 => var ;
-     var b;
-     var c;
-     var d;
+3 => var firstName  = "Jhon" ;
+     var lastName   = "Wick" ;
+     var maritalStatus  =  "Married" ;
+     var country    = "USA" ;
+     var age    = 40 ;
+
+4 => var userInfo = ["jhon", "wick", "Married", "USA", 40];
+
+5 => var stringValue = "I am 25 years old.";
+     var booleanValue = true;
+     var undefinedValue;
+     var nullValue = null;
+
+6 => a-> var str = "123";
+         var intValue = parseInt(str, 10);
+         console.log(intValue);
+
+     b-> var str = "123";
+         var intValue = Number(str);
+         console.log(intValue);
+
+     c-> var str = "42";
+         var intValue = +str;
+         console.log(intValue);  
+
+7 => truthy statements :(non empty data)
+        true,"hi",22,[1,2,"hi"],{1:"a",2:"b"}, Fn(a){block of code} 
+    falsy statements : (empty or null data)
+        false, "" , 0 , null, undefined, NaN
