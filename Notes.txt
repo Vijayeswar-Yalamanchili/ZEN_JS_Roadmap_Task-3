@@ -18,7 +18,7 @@ Task 1:
      var country    = "USA" ;
      var age        = 40 ;
 
-4 => var userInfo = ["jhon", "wick", "Married", "USA", 40];
+4 => var firstName = "Jhon", lastName = "Wick", maritalStatus =  "Married", country = "USA", age = 40 ;
 
 5 => var stringValue = "I am 25 years old.";
      var booleanValue = true;
@@ -41,3 +41,41 @@ Task 1:
         true,"hi",22,[1,2,"hi"],{1:"a",2:"b"}, Fn(a){block of code} 
     falsy statements : (empty or null data)
         false, "" , 0 , null, undefined, NaN
+
+
+Task 2:
+
+1 => var a = 5;
+     var squareValue = a*a;
+     console.log(squareValue);
+
+2 => var swap1 = 10;
+     var swap2 = 15;
+     swap1 = swap1+swap2;   //10+15 = 25
+     swap2 = swap1-swap2;   //25-15 = 10
+     swap1 = swap1-swap2;   //25-10 = 15
+     console.log("After swapping: swap1 = " + swap1 +",swap2 = " +swap2);
+
+3 => var add1 = 10;
+     var add2 = 20;
+     var add3 = 30;
+     var addNumbers = add1+add2+add3;
+     console.log(addNumbers);
+
+4 => var celsiusValue = 10;
+     var fahrenheitValue = (celsiusValue * (9 / 5)) + 32;
+     console.log(fahrenheitValue);
+
+5 => var meterValue = 10;
+     var mileValue = (meterValue * 0.00062137);
+     console.log(mileValue);
+
+6 => var poundValue = 10;
+     var kgValue = (poundValue / 2.2046);
+     console.log(kgValue);
+
+7 => var batsmanScores = 1250;
+     var matchesPlayed = 18
+     var numberofDismissals = 13
+     var BattingAvg = (batsmanScores / numberofDismissals);
+     console.log(BattingAvg);
