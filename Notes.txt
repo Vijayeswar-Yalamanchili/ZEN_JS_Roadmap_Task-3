@@ -79,3 +79,129 @@ Task 2:
      var numberofDismissals = 13
      var BattingAvg = (batsmanScores / numberofDismissals);
      console.log(BattingAvg);
+
+8 => var score1 = 12, score2 = 15,score3 = 50,score4 = 20,score5 = 126;
+     var totalScore = score1+score2+score3+score4+score5;
+     var averageScore = totalScore/5;
+     console.log(averageScore);
+
+9 => var baseValue = 2;
+     var powerValue = 2
+     var power = Math.pow(baseValue,powerValue);
+     console.log(power);
+
+10 =>   var pricipleAmt = 10000;
+        var interestRate = 0.05;
+        var tenureMonths = 12;
+        var simpleInterest = (pricipleAmt*interestRate*tenureMonths)/100;
+        console.log(simpleInterest);
+
+11 =>   var sideValue = 20;
+        var equilateralFormula = (Math.sqrt(3)/4) * (Math.pow(sideValue,2));
+        console.log(equilateralFormula);
+
+12 =>   var baseIsoscelesTriangle = 20;
+        var heightIsoscelesTriangle = 20;
+        var isoscelesTriangleArea = (baseIsoscelesTriangle*heightIsoscelesTriangle)/2;
+        console.log(isoscelesTriangle);
+
+13 =>   var sphereRadii = 4;
+        var sphereVolume = (4/3) * Math.PI * (Math.pow(sphereRadii,3));
+        console.log(sphereVolume);
+
+14 =>   var basePrism = 5;
+        var heightPrism = 5;
+        var prismVolume = basePrism * heightPrism;
+        console.log(prismVolume);
+
+15 =>   var baseTriangle = 20;
+        var heightTriangle = 20;
+        var triangleArea = (baseTriangle*heightTriangle)/2;
+        console.log(triangleArea);
+
+16 =>   var actualCost = 100;
+        var soldCost = 90;
+        var discountValue = actualCost - soldCost;
+        console.log("Discount Amt : " + discountValue + " " + " & Discount percent : " + ((discountValue/100)*10)+"%");
+
+17 =>   var circleRadii = 4;
+        var circleDiameter = 2 * circleRadii
+        var circleCicumference = 2 * Math.PI * circleRadii;
+        var circleArea = Math.PI * (Math.pow(circleRadii,2));
+        console.log("Diameter :" + circleDiameter + "," + 
+                    "Cicumference :" + circleCicumference + "," +
+                    "Area :" + circleArea );
+
+18 =>   var val1 = 2;
+        var val2 = 4;
+        var val3 = 5;
+        var addVal = val1 + val2;
+        var subVal = val1 - val2;
+        var multiplyVal = val1 * val2;
+        var divideVal = val1 / val2;
+        var modulusVal = val1 % val3;
+        var exponentiationVal = val2 ** val1;
+        var incrementVal = val1++;
+        var decrementVal = val1--;
+
+19 =>   var asteriskLine = '*****';
+        console.log(asteriskLine);
+        console.log(asteriskLine);
+        console.log(asteriskLine);
+        console.log(asteriskLine);
+        console.log(asteriskLine);
+
+20 =>   var powerConsumed = 100;
+        var hoursPerDay = 24;
+        var daysPerMonth = 30;
+        var unitRate = 10;
+        var energyConsumed = (powerConsumed * hoursPerDay * daysPerMonth) / 1000;
+        var totalCost = energyConsumed * unitRate;
+        console.log(totalCost);
+
+21 =>   var subj1 = 12, subj2 = 15,subj3 = 50,subj4 = 20,subj5 = 126;
+        var totalmarks = score1+score2+score3+score4+score5;
+        var cgpa = totalmarks/5;
+        console.log(cgpa);
+
+Task 3
+
+OBJECTS
+
+1 => var  myobject = {1:"one","11":1,"name":"arun"}
+     myobject.ten = "ten";
+     console.log(myobject);
+
+2 => var dataObject = {
+        name: "Guvi",
+        type: "Geek",
+        number: 6,
+        location: "IIT-M RP, Chennai"
+     };
+
+3 => var companies = [
+        {
+          name: "Guvi",
+          type: "Geek",
+          age: 6,
+          address: "IIT-M RP, Chennai"
+        },
+        {
+          name: "Amazon, Inc",
+          type: "31",
+          age: "SP Infocity",
+          address: "Chennai"
+        },
+        {
+          name: "Google",
+          type: "Alphabet",
+          age: 34,
+          address: "34 Amphitheater Parkway, MountainView"
+        },
+        {
+          name: "Tesla, Inc",
+          type: "32",
+          age: "333 Santana Row",
+          address: "San Jose"
+        }
+     ];
